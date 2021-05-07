@@ -1,0 +1,128 @@
+*{
+	box-sizing: border-box;
+}
+
+.navbar-brand{
+	width: 50%;
+}
+
+#logo-header{
+	display: flex;
+
+}
+
+#heading{
+	font-family: 'Libre Baskerville', serif;
+	font-weight: bold;
+	font-size: 20px; 
+	margin-top: 30px; 
+	padding-left: 10px; 
+}
+
+#Searchbar{
+	width: 300px;
+	height: 50px;
+	vertical-align:middle;
+}
+
+#pic-frame{
+	width: 50%;
+	height: 400px;
+	margin-top: 20px;
+}
+
+
+li::marker {
+    font-weight: bold;
+    font-size: 2em;
+}
+#contentid{
+	display: none;
+}
+
+footer{
+	height: 50px;
+	background: #F5F5F5;
+}
+
+#foot-left{
+	display: flex;
+	margin-top: 12.5px;
+	padding-left: 10px;
+}
+
+#a{
+	margin-left: 10px;
+	text-decoration: none;
+	color:black;
+}
+@media(max-width: 1200px){
+
+.navbar-brand{
+	width: 40%;
+}
+	#pic-frame{
+	width: 60%;
+	height: 350px;
+	margin-top: 20px;
+}
+
+
+
+}
+@media(max-width: 995px){
+	#pic-frame{
+	width: 80%;
+	height: 400px;
+	margin-top: 20px;
+}
+#content-img{
+	text-align: center;
+	background-color: #ffffff;
+background-image: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
+}
+}
+
+@media(max-width: 768px){
+	#pic-frame{
+	width: 90%;
+	height: 300px;
+	margin-bottom: 40px;
+}
+
+}
+@media(max-width: 564px){
+	#pic-frame{
+	width: 90%;
+	height: 200px;
+	
+}
+
+}
+
+@media(max-width:455px){
+
+#heading span{
+	font-size:.8em;
+}
+#logo-pic img{
+	height: 60px;
+	width: 60px;
+}
+	#pic-frame{
+	width: 90%;
+	height: 160px;
+	
+}
+}
+
+@media(max-width:368px){
+#heading span{
+	font-size:.6em;
+}
+	#pic-frame{
+	width: 90%;
+	height: 100px;
+	
+}
+}
