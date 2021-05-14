@@ -1,0 +1,347 @@
+<Doctype html>
+<html lang="en">
+  <head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@1,800&display=swap" rel="stylesheet">
+
+    <title>didyouknowthat.com</title>
+  </head>
+ 
+  </script>
+  <body onload="load();">
+
+
+    <!-- Header-->
+
+  <nav id="h"  class="navbar navbar-expand-lg navbar-light">
+  <div class="container-fluid">
+     <a class="navbar-brand" href="#">
+    	<div id="logo-header">
+      <div id="logo-pic" ><img src="images/logo.jpeg" alt="" width="100" height="100" class="d-inline-block align-text-top"></div>
+      <div id="heading"><span class="navbar-brand mb-0 h1">DID YOU KNOW IT</span></div> 
+     </div>
+    </a>
+
+    <button  class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div  class="collapse navbar-collapse " id="navbarSupportedContent">
+      <ul class=" navbar-nav me-auto mb-2 mb-lg-0" >
+        <li value="1" class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="content/aboutus.html">About Us</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            More
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">About Us</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item disabled" href="#">Contact Us</a></li>
+          </ul>
+        </li>
+            </ul>
+      
+    </div>
+  </div>
+</nav>
+
+<div id="searchbar" class=" container">
+  <form  id="searchbar" class="d-flex">
+        <div id="Searchbar" class=" form-floating mb-3">
+  <input id="myInput" onkeyup="Search()" class="form-control" type="text" placeholder="Search" id="floatingInput">
+  <label for="floatingInput">Search</label>
+</div>
+      </form>
+  
+</div>
+
+<div class="container-fluid" id="myBtnContainer">
+  <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+    <div id="up">
+      <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
+  <label class="btn btn-outline-primary" for="btnradio1" onclick="filterSearch('')" >Show all</label>
+
+  <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+  <label class="btn btn-outline-primary" for="btnradio2" onclick="filterSearch('Anime')">Anime</label>
+
+  <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
+  <label class="btn btn-outline-primary" for="btnradio3" onclick="filterSearch('Health')">Health</label>
+</div>
+
+<div id=down>
+  <input type="radio" class="btn-check" name="btnradio" id="btnradio4" autocomplete="off">
+  <label class="btn btn-outline-primary" for="btnradio4" onclick="filterSearch('Education')">Education</label>
+
+  <input type="radio" class="btn-check" name="btnradio" id="btnradio5" autocomplete="off">
+  <label class="btn btn-outline-primary" for="btnradio5" onclick="filterSearch('Shopping')">Shopping</label>
+
+   <input type="radio" class="btn-check" name="btnradio" id="btnradio6" autocomplete="off">
+  <label class="btn btn-outline-primary" for="btnradio6" onclick="filterSearch('Food')">Food</label>
+</div>
+
+</div>
+  
+</div>
+
+    <!-- Body -->
+
+<div id="content" class="container">
+  <ol id="myUL">
+  	
+    <!-- Content -->
+
+<li value="1">
+  <a id="contentid" href="#">Best Sports Shoes For Men  Shopping</a>
+          <a id="linked" href="content/Best Sports Shoes For Men/1.html">
+    <div class="card mb-3" >
+  <div class="row g-0">
+    <div  id="content-img" class="col-xl-3 col-lg-4">
+      <img src="https://images.unsplash.com/photo-1512374382149-233c42b6a83b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=375&q=80"
+      class="img-fluid" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">Best Sports Shoes For Men</h5>
+        <p class="card-text">Buy Sports Shoes for Men. Huge collection of men's sports shoes at low offer price & discounts at COD, Easy Returns & Exchanges. Order Now. <span class="badge bg-danger">New</span></p>
+
+        <p class="card-text"><b class="text-muted">Category: <span>Shopping</span></b></p>
+      </div>
+    </div>
+  </div>
+</div>
+</a>
+</li>
+
+<li>
+  <a id="contentid" href="#">How To Make Lemonade At Home  Food</a>
+          <a id="linked" href="content/How To Make Lemonade At Home/1.html">
+    <div class="card mb-3" >
+  <div class="row g-0">
+    <div  id="content-img" class="col-xl-3 col-lg-4">
+      <img src="https://images.unsplash.com/photo-1583064313642-a7c149480c7e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=358&q=80"
+      class="img-fluid" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">How To Make Lemonade At Home</h5>
+        <p class="card-text">Looking for a is a sweetened lemon-flavored beverage then lemonade is the best option for you. <span class="badge bg-danger">New</span></p>
+
+        <p class="card-text"><b class="text-muted">Category: <span>Food</span></b></p>
+      </div>
+    </div>
+  </div>
+</div>
+</a>
+</li>
+
+
+ <li><a id="contentid" href="#">How to make a Instant cold coffee  Food</a>
+          <a id="linked" href="content/How to make a Instant cold coffee/1.html">
+    <div class="card mb-3" >
+  <div class="row g-0">
+    <div  id="content-img" class="col-xl-3 col-lg-4">
+      <img src="https://images.unsplash.com/photo-1584286595398-a59f21d313f5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=375&q=80"
+      class="img-fluid" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">How to make a Instant cold coffee</h5>
+        <p class="card-text">Feeling hot want something to cool you off then what's better than a cold icy cold coffee that will refresh your body. <span class="badge bg-danger">New</span></p>
+
+        <p class="card-text"><b class="text-muted">Category: <span>Food</span></b></p>
+      </div>
+    </div>
+  </div>
+</div>
+</a>
+</li>
+
+<li><a id="contentid" href="#">How To Make Chocolate Shake At Home  Food</a>
+          <a id="linked" href="content/How To Make Chocolate Shake At Home/1.html">
+    <div class="card mb-3" >
+  <div class="row g-0">
+    <div  id="content-img" class="col-xl-3 col-lg-4">
+      <img src="https://images.unsplash.com/photo-1572490122747-3968b75cc699?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80" class="img-fluid" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">How To Make Chocolate Shake At Home</h5>
+        <p class="card-text">A cold chocolaty beverage to refresh your body on a hot summery day which has great taste and also good for your health. Here, check out how to make a chocolate shake at home with comfort. <span class="badge bg-danger">New</span></p>
+
+        <p class="card-text"><b class="text-muted">Category: <span>Food</span></b></p>
+      </div>
+    </div>
+  </div>
+</div>
+</a>
+</li>
+
+
+
+        <li><a id="contentid" href="#">5 Reasons to watch One Piece  Anime</a>
+          <a id="linked" href="content/onepiece/1.html">
+  <div class="card mb-3" >
+  <div class="row g-0">
+    <div  id="content-img" class="col-xl-3 col-lg-4">
+      <img src="images/onepiece/1.jpg"
+      class="img-fluid" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">5 Reasons to watch One piece</h5>
+        <p class="card-text">One Piece is a Japanese manga series written and illustrated by Eiichiro Oda. It has been serialized in Shueisha's Weekly Shōnen Jump magazine since July 1997, with its individual chapters compiled into 98 tankōbon volumes as of February 2021. The story follows the adventures of Monkey D. Luffy, a boy whose body gained the properties of rubber after unintentionally eating a Devil Fruit. With his crew of pirates, named the Straw Hat Pirates, Luffy explores the Grand Line in search of the world's ultimate treasure known as "One Piece" in order to become the next King of the Pirates. <span class="badge bg-danger">New</span></p>
+
+        <p class="card-text"><b class="text-muted">Category: <span>Anime</span></b></p>
+      </div>
+    </div>
+  </div>
+</div>
+</a>
+        </li>
+
+
+        <li><a id="contentid" href="#">5 Reasons to watch Naruto  Anime</a>
+          <a id="linked" href="content/naruto/1.html">
+    <div class="card mb-3" >
+  <div class="row g-0">
+    <div  id="content-img" class="col-xl-3 col-lg-4">
+      <img src="https://i.pinimg.com/564x/5f/f1/eb/5ff1eb77a939c00f40bcdf43a1a309bf.jpg"
+      class="img-fluid" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">5 Reasons to watch Naruto</h5>
+        <p class="card-text">Naruto is a Japanese manga series written and illustrated by Masashi Kishimoto. It tells the story of Naruto Uzumaki, a young ninja who seeks recognition from his peers and dreams of becoming the Hokage, the leader of his village. <span class="badge bg-danger">New</span></p>
+
+        <p class="card-text"><b class="text-muted">Category: <span>Anime</span></b></p>
+      </div>
+    </div>
+  </div>
+</div>
+</a>
+</li>
+
+
+        <li><a id="contentid" href="#">5 Best Shonen Anime Of All Time  Anime</a>
+          <a id="linked" href="content/5 Best Shonen Anime Of All Time/1.html">
+    <div class="card mb-3" >
+  <div class="row g-0">
+    <div  id="content-img" class="col-xl-3 col-lg-4">
+      <img src="https://hg1.funnyjunk.com/pictures/Shonen+anime+poll+poll+gremloc2_ab845a_6673193.jpg"
+      class="img-fluid" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">5 Best Shonen Anime Of All Time</h5>
+        <p class="card-text">One Piece, Naruto, Dragon Ball and many more - anime's shounen series tend to be very popular. But which are the best shows of them all? <span class="badge bg-danger">New</span></p>
+
+        <p class="card-text"><b class="text-muted">Category: <span>Anime</span></b></p>
+      </div>
+    </div>
+  </div>
+</div>
+</a>
+</li>
+      
+        <li><a id="contentid" href="#">Tips To Prevent Coronavirus Transmission  Covid19  Health</a>
+          <a id="linked" href="content/Covid19/1.html">
+    <div class="card mb-3" >
+  <div class="row g-0">
+    <div  id="content-img" class="col-xl-3 col-lg-4">
+      <img src="images/covid19/1.jpg"
+      class="img-fluid" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">Tips To Prevent Coronavirus Transmission</h5>
+        <p class="card-text">The global spread of coronavirus means that many people will now need to take certain action steps to help reduce its transmission. <span class="badge bg-danger">New</span></p>
+
+        <p class="card-text"><b class="text-muted">Category: <span>Health</span></b></p>
+      </div>
+    </div>
+  </div>
+</div>
+</a>
+</li>
+      
+        <li><a id="contentid" href="#">Top 5 Toughest Exams in India  Education</a>
+          <a id="linked" href="content/Top 5 Toughest Exams in India/1.html">
+    <div class="card mb-3" >
+  <div class="row g-0">
+    <div  id="content-img" class="col-xl-3 col-lg-4">
+      <img src="images\Top 5 Toughest Exams in India/1.jpg"
+      class="img-fluid" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">Top 5 Toughest Exams in India</h5>
+        <p class="card-text">Competitive exams are designed to measure aptitude, mental stability, physical fitness, technical skills, and other aspects. These exams are conducted either orally, or online, or via pen-and-paper, or in a setup that requires the test taker to perform the exam with a particular set of skills. Thousands of exams are conducted in India every year; most of them easy to crack. That’s why this article provides details on the top 5 toughest exams in India. <span class="badge bg-danger">New</span></p>
+
+        <p class="card-text"><b class="text-muted">Category: <span>Education</span></b></p>
+      </div>
+    </div>
+  </div>
+</div>
+</a>
+</li>
+
+    <li><a id="contentid" href="#">Weirdest Products on Amazon That You Should Try  Shopping</a>
+          <a id="linked" href="content/Weirdest Products on Amazon That You Should Try/1.html">
+    <div class="card mb-3" >
+  <div class="row g-0">
+    <div  id="content-img" class="col-xl-3 col-lg-4">
+      <img src="https://images.unsplash.com/photo-1585386931415-464367473a01?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=375&q=80"
+      class="img-fluid" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">Weirdest Products on Amazon That You Should Try</h5>
+        <p class="card-text">Ever catch yourself browsing through Amazon and coming across a product that's just so ... weird? There is one of the kind that really catch people's attention. <span class="badge bg-danger">New</span></p>
+
+        <p class="card-text"><b class="text-muted">Category: <span>Shopping</span></b></p>
+      </div>
+    </div>
+  </div>
+</div>
+</a>
+</li>
+      
+
+
+      </ol>
+</div>
+
+
+<footer>
+	
+  <div class="container-fluid">
+  <div class="float-start" id="foot-left">
+    <a id="a" class="bold"  href="#"><div>Home</div></a>
+    <a id="a"  href="content/aboutus.html"><div>About Us</div></a>
+  </div>
+</div>
+
+</footer>
+
+
+<script type="text/javascript" src="js/main.js"></script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+   
+</body>
+</html>
